@@ -18,7 +18,7 @@ class Account{
     private:
     Person data;
     Authentication loginDetails;
-    int NumbersOfAccount;
+
     int accountBalance; 
     public:
     Account();
@@ -26,6 +26,8 @@ class Account{
 	void Withdrawl(int wd);
 	int getBalance();
 	void AccountStatement();  
+	
+	//Adding A Account
 
     Account* Next;
     Account* Prev;
