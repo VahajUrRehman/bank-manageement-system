@@ -8,8 +8,7 @@
 #include"AccountList.h"
 
 class Administrator{
-private:   
-    Authentication dt;
+private:
     void addUserAccount();
     void deleteUserAccount(AccountList a);
     void getListOfAccountHolder(AccountList a);
